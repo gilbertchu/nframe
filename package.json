@@ -1,0 +1,24 @@
+{
+  "name": "nframe",
+  "version": "1.0.0",
+  "description": "A simple Node.js framework with express",
+  "main": "spawn.js",
+  "scripts": {
+    "start": "node ./spawn.js"
+    "test": "echo \"Not yet implemented\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbertchu/nframe.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Gilbert Chu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gilbertchu/nframe/issues"
+  },
+  "homepage": "https://github.com/gilbertchu/nframe#readme"
+}
