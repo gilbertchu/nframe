@@ -1,10 +1,10 @@
 {
   "name": "nframe",
-  "version": "1.0.0",
-  "description": "A simple Node.js framework with express",
+  "version": "0.0.0",
+  "description": "A simple Node.js framework with express (NOT YET READY IN ANY WAY)",
   "main": "spawn.js",
   "scripts": {
-    "start": "node ./spawn.js"
+    "start": "node ./spawn.js",
     "test": "echo \"Not yet implemented\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/gilbertchu/nframe/issues"
   },
-  "homepage": "https://github.com/gilbertchu/nframe#readme"
+  "homepage": "https://github.com/gilbertchu/nframe#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
