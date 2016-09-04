@@ -1,0 +1,9 @@
+<h2>Error {{ error.status }}</h2>
+<p>{{ error.message }}</p>
+{{#if logging}}
+<pre>{{ error.stack }}</pre>
+{{else}}
+<p>
+<a href="/">Return to home page</a>
+</p>
+{{/if}}

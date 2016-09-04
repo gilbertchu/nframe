@@ -5,6 +5,7 @@
   "main": "spawn.js",
   "scripts": {
     "start": "node ./spawn.js",
+    "solo": "node ./app/app.js",
     "test": "echo \"Not yet implemented\" && exit 1"
   },
   "repository": {
@@ -22,7 +23,10 @@
   },
   "homepage": "https://github.com/gilbertchu/nframe#readme",
   "dependencies": {
-    "dotenv": "^2.0.0"
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "raw-body": "^2.1.7"
   },
   "devDependencies": {
     "gulp": "^3.9.1"

@@ -12,9 +12,9 @@
  *		const log = new LogHelper(name);
  */
 
-var LogHelper = function(name) {
+function LogHelper(name) {
 	this.name = name;
-};
+}
 
 //Returns utc datetime string
 LogHelper.prototype.utc = function() {
